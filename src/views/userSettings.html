@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>User Settings</title>
+    </head>
+    <body>
+        <h1>Settings</h1>
+        <form id="delete">
+            <h3>Delete User</h3>
+            <input value="Delete" type="submit" />
+        </form>
+        <form id="logout">
+            <h3>Logout</h3>
+            <button id="logout" type="button">Logout</button></h1>
+        </form>
+        <form id="updatePassword">
+            <h3>Update User Password</h3>
+            <label for="currentPassword">
+                Current password
+                <input
+                    type="text"
+                    name="currentPassword"
+                    id="currentPassword"
+                    placeholder="Current password"
+                    required
+                />
+            </label>
+            <label for="newPassword">
+                New password
+                <input
+                    type="text"
+                    name="newPassword"
+                    id="newPassword"
+                    placeholder="New password"
+                    required
+                />
+            </label>
+            <button>Submit</button>
+        </form>
+        <script src="userSettings.js"></script>
+    </body>
+</html>
