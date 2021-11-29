@@ -6,7 +6,7 @@ const fileUpload = require('express-fileupload');
 
 // Routes
 const userRoutes = require('./src/routes/user-routes');
-
+const productRoutes = require('./src/routes/product-routes');
 
 const PORT = process.env.PORT || 3000;
 
@@ -19,9 +19,10 @@ app.use(fileUpload());
 
 // Routes
 app.use('/users', userRoutes);
+app.use('/products', productRoutes);
 
 // Start server
-app.listen(PORT, console.log('Server is running'));
+app.listen(PORT, console.log(`Server is running and listening on localhost:${PORT}`));
 
-// app must be exported if you are running mocha tests. This is not necessary if you are not running tests to the API
+// It's not required to export the app, unless you're unit testing the API.
 module.exports = app;

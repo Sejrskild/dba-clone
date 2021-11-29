@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Create Product</title>
+    </head>
+    <body>
+        <h1>Create Product</h1>
+        <form id="createProduct">
+            <label for="image">
+                Image
+                <input
+                    type="file"
+                    id="image"
+                    name="image"
+                    accept="image/*"
+                    required
+                />
+            </label>
+            <label for="category">
+                Category
+                <select name="category" id="category">
+                    <option value="Cars">Cars</option>
+                    <option value="Toys">Toys</option>
+                    <option value="Clothes">Clothing</option>
+                    <option value="Other">Other</option>
+                </select>
+            </label>
+            <label for="price"
+                >Price
+                <input type="number" id="price" name="price" required />
+            </label>
+            <button>Submit</button>
+        </form>
+        <script src="createProduct.js"></script>
+    </body>
+</html>
