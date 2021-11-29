@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', event => {
                 .then(response => {
                     if (response) {
                         alert('Product is now for sale!');
-                        window.location.reload();
+                        location.href = '/';
                     }
                 })
                 .catch(() => {
