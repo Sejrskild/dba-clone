@@ -1,10 +1,10 @@
 // Import assert from Chai to compare values
 const assert = require('chai').assert;
-// As this is an API function, a request module must be imported to run tests
+// Using supertest to test API.
 const request = require('supertest');
-// Import the API
+// Importing the API
 const app = require('../server');
-// Import Database
+// Importing Database
 const db = require('../src/helpers/db');
 
 describe('POST /users/create', () => {
