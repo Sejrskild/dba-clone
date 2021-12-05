@@ -1,3 +1,7 @@
+* 7ce7c10 : updated unit test
+* 75e922d : added comments to unit test
+* ab8e5d3 : Rework unit testing and added CSS to update product page
+* e839a47 : Added log.log to represent my commits
 * 69c61b0 : Updated README.md
 * 195e66b : Updated README.md
 * 0e22047 : Finished the project and added a unit test to test if createUser works.
