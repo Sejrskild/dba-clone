@@ -1,0 +1,6 @@
+* 69c61b0 : Updated README.md
+* 195e66b : Updated README.md
+* 0e22047 : Finished the project and added a unit test to test if createUser works.
+* 3b26c4c : Added that when adding a new product it redirects you to frontpage.
+* f0e0fe1 : Added all of the needed products features
+* 2587bae : Added login system with working registration, logout and change password function
