@@ -1,0 +1,35 @@
+body {
+    font-family: Avenir, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+.createProduct__form {
+    border: #024d1a 4px solid;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 300px;
+}
+button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #024d1a;
+    color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    cursor: pointer;
+    font-family: Avenir, sans-serif;
+    margin-top: 40px;
+}
+
+#leftback > img {
+    width: 40px;
+}
+
+.createProduct__elements {
+    text-align: center;
+}
+

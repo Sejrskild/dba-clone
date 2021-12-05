@@ -5,9 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Create Product</title>
+        <link rel="stylesheet" href="createProduct.css">
     </head>
     <body>
-        <h1>Create Product</h1>
+        <div class="createProduct__form">
+            <a href="index.html" id="leftback">
+                <img src="./assert/backarrow.png" id="backbtn" alt="backbutton">
+            </a>
+        <h1>Create Product for sale</h1>
+        <div class="createProduct__elements">
         <form id="createProduct">
             <label for="image">
                 Image
@@ -18,6 +24,7 @@
                     accept="image/*"
                     required
                 />
+                <br>
             </label>
             <label for="category">
                 Category
@@ -28,11 +35,15 @@
                     <option value="Other">Other</option>
                 </select>
             </label>
+            <br>
             <label for="price"
                 >Price
                 <input type="number" id="price" name="price" required />
             </label>
-            <button>Submit</button>
+            <br>
+            <button>Create</button>
+        </div>
+        </div>
         </form>
         <script src="createProduct.js"></script>
     </body>

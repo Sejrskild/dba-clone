@@ -10,9 +10,8 @@ const productRoutes = require('./src/routes/product-routes');
 
 const PORT = process.env.PORT || 3000;
 
-// Middleware - endnu et fedt term
+
 app.use(express.static('./src/views'));
-// Kommer som string -> JSON
 app.use(express.json());
 // Invoke fileUpload package function
 app.use(fileUpload());

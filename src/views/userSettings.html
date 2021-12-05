@@ -5,41 +5,49 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>User Settings</title>
+        <link rel="stylesheet" href="userSettings.css">
     </head>
     <body>
-        <h1>Settings</h1>
-        <form id="delete">
-            <h3>Delete User</h3>
-            <input value="Delete" type="submit" />
-        </form>
-        <form id="logout">
-            <h3>Logout</h3>
-            <button id="logout" type="button">Logout</button></h1>
-        </form>
-        <form id="updatePassword">
-            <h3>Update User Password</h3>
-            <label for="currentPassword">
-                Current password
-                <input
-                    type="text"
-                    name="currentPassword"
-                    id="currentPassword"
-                    placeholder="Current password"
-                    required
-                />
-            </label>
-            <label for="newPassword">
-                New password
-                <input
-                    type="text"
-                    name="newPassword"
-                    id="newPassword"
-                    placeholder="New password"
-                    required
-                />
-            </label>
-            <button>Submit</button>
-        </form>
+        <div class="settings__border">
+            <div class="settings__header">
+                <a href="index.html" id="leftback">
+                    <img src="./assert/backarrow.png" id="backbtn" alt="backbutton">
+                </a>
+            </div>
+            <h1>Settings</h1>
+            <form id="updatePassword">
+                <h3>Update User Password</h3>
+                <label for="currentPassword">
+                    <input
+                        type="text"
+                        name="currentPassword"
+                        id="currentPassword"
+                        placeholder="Current password"
+                        required
+                    />
+                </label>
+                <label for="newPassword">
+                    <input
+                        type="password"
+                        name="newPassword"
+                        id="newPassword"
+                        placeholder="New password"
+                        required
+                    />
+                </label>
+                <br>
+                <button id="settings__submit">Reset Password</button>
+            </form>
+            <div class="settings__logout">
+            <form id="logoutForm">
+                <button id="logout" type="button">Logout</button></h1>
+            </form>
+        </div>
+            <form id="delete">
+                <input value="Delete Profile" onclick="return confirm('Are you sure you want to delete your user?')" type="submit" id="deleteBtn" />
+            </form>
+        </div>
+
         <script src="userSettings.js"></script>
     </body>
 </html>

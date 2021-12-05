@@ -1,0 +1,105 @@
+.settings__border {
+    width:400px;
+    height: 500px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding:0px 0px 20px 0px;
+    border: #024d1a 4px solid; 
+    text-align: center;
+    font-family: Avenir, sans-serif;
+}
+
+.settings__header {
+    display: flex;
+    text-align: center;
+}
+
+#currentPassword {
+    width:60%;
+    height:20px;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border: none;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    margin: 10px;
+    text-align: center;
+
+}
+
+#newPassword {
+    width:60%;
+    height:20px;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border: none;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    margin: 10px;
+    text-align: center;
+}
+
+input {
+    outline-color: #024d1a;
+}
+
+#settings__submit {
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #024d1a;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Avenir, sans-serif;
+    margin-top: 10px;
+}
+
+#deleteBtn {
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #ae0000;
+    color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Avenir, sans-serif;
+    margin-top: 10px;
+}
+
+#logout {
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #024d1a;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Avenir, sans-serif;
+    margin: 10px;
+    margin-top: 60px;
+}
+
+#leftbtn {
+    width: 40px;
+}
+
+img {
+    width: 40px;
+
+}
+

@@ -1,6 +1,6 @@
 async function getMyProducts(email) {
     // Get the products passing the email as a query parameter
-    // This could be a bad option as it doesn't check if the person is the real owner.
+    // This is a bad option as it doesn't check if the person is the real owner.
     const products = await fetch(`/products/myProducts?email=${email}`)
         .then(
         r => r.json()

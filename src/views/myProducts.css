@@ -1,0 +1,23 @@
+.myProducts__all {
+    width: 600px;
+    border-radius: 6px;
+    margin: 0 auto 0 auto;
+    padding: 0px 0px 20px 0px;
+    border: #024d1a 4px solid;
+    font-family: Avenir, sans-serif;
+    text-align: center;
+}
+
+#table__center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products__header {
+    display: flex;
+    text-align: center;
+}
+
+img {
+    width: 40px;
+}

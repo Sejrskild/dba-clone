@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Update Product</title>
-    </head>
-    <body>
-        <h1>All Available Products</h1>
-        <select name="category" id="category">
-            <option value="all">All Categories</option>
-            <option value="Cars">Cars</option>
-            <option value="Toys">Toys</option>
-            <option value="Clothes">Clothing</option>
-            <option value="Other">Other</option>
-        </select>
-        <table style="border: 1px solid black">
-            <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Category</th>
-                    <th>Price</th>
-                </tr>
-            </thead>
-            <tbody id="allProducts"></tbody>
-        </table>
-        <script src="allProducts.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Update Product</title>
+    <link rel="stylesheet" href="allProducts.css">
+  </head>
+  <body>
+    <div class="allProducts__form">
+        <div class="createProduct__header">
+            <a href="index.html" id="leftback">
+                <img src="./assert/backarrow.png" id="backbtn" alt="backbutton">
+            </a>
+        </div>
+      <h1>All Available Products</h1>
+      <select name="category" id="category">
+        <option value="all">All Categories</option>
+        <option value="Cars">Cars</option>
+        <option value="Toys">Toys</option>
+        <option value="Clothes">Clothing</option>
+        <option value="Other">Other</option>
+      </select>
+      <table class="table__center">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Category</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="allProducts"></tbody>
+      </table>
+      <script src="allProducts.js"></script>
+    </div>
+  </body>
 </html>

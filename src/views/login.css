@@ -1,0 +1,77 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Avenir, sans-serif;
+  color:#111;
+  text-align: center;
+}
+
+.login__form {
+    width:400px;
+    height: 500px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding:0px 0px 20px 0px;
+    border: #024d1a 4px solid; 
+
+}
+
+.login__form > h1 {
+    font-size: 50px;
+}
+
+#email {
+    width:60%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border: none;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:40px;
+    margin: 10px;
+    font-family: Avenir, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 60px;
+    margin-top: 100px;
+
+}
+
+#password {
+    width:60%;
+    resize: vertical;
+    padding:15px;
+    border-radius:15px;
+    border: none;
+    box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+    height:40px;
+    margin: 10px;
+    font-family: Avenir, sans-serif;
+    text-align: center;
+}
+
+#login__submit {
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #024d1a;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Avenir, sans-serif;
+    margin-top: 40px;
+}
+
+input {
+    outline-color: #024d1a;
+}

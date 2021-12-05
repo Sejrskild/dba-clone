@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Products</title>
-    </head>
-    <body>
-        <h1>My Products</h1>
-        <table style="border: 1px solid black">
-            <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Category</th>
-                    <th>Price</th>
-                    <th>Action</th>
-                </tr>
-            </thead>
-            <tbody id="myProducts"></tbody>
-        </table>
-        <script src="myProducts.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Products</title>
+    <link rel="stylesheet" href="myProducts.css">
+  </head>
+  <body>
+    <div class="myProducts__all">
+        <div class="products__header">
+            <a href="index.html" id="leftback">
+                <img src="./assert/backarrow.png" id="backbtn" alt="backbutton">
+            </a>
+        </div>
+      <h1>My Products</h1>
+      <table id="table__center">
+        <thead>
+          <tr>
+            <th>Image</th>
+            <th>Category</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody id="myProducts"></tbody>
+      </table>
+    </div>
+    <script src="myProducts.js"></script>
+  </body>
 </html>
