@@ -7,10 +7,10 @@ const app = require('../server');
 // Importing Database
 const db = require('../src/helpers/db');
 
-describe('POST /users/create', () => {
+describe('Testing create user', () => {
     it('User should be created and added to database', done => {
         const userModel = {
-            email: 'noeremil@gmail.com',
+            email: 'unittesting@google.com',
             password: '123',
         };
 
