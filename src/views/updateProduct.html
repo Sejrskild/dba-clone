@@ -5,14 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Update Product</title>
+        <link rel="stylesheet" href="updateProduct.css">
     </head>
     <body>
+        <div class="updateProduct__form">
         <h1>My Product</h1>
         <div id="product"></div>
         <form id="updatePrice">
             <h3>Update Product Price</h3>
             <label for="price">
-                New Price:
                 <input
                     type="number"
                     name="price"
@@ -20,12 +21,14 @@
                     placeholder="Enter New Price"
                 />
             </label>
-            <button>Submit</button>
+            <br>
+            <button id="submitBtn">Update</button>
         </form>
         <form id="delete">
             <h3>Delete Product</h3>
-            <input value="Delete" type="submit" />
+            <input value="Delete" type="submit" id="deleteBtn" onclick="return confirm('Are you sure you want to delete the product?')" />
         </form>
+    </div>
         <script src="updateProduct.js"></script>
     </body>
 </html>

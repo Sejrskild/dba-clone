@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(response => {
                 if (response) {
                     alert('Product price successfully updated.');
-                    window.location.reload();
+                    location.href = '/myProducts.html';
                 }
             })
             .catch(() => {

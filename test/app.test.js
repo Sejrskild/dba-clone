@@ -8,10 +8,10 @@ const app = require('../server');
 const db = require('../src/helpers/db');
 
 describe('POST /users/create', () => {
-    it('User should be added to the database', done => {
+    it('User should be created and added to database', done => {
         const userModel = {
-            email: 'user@email.com',
-            password: 'secret',
+            email: 'noeremil@gmail.com',
+            password: '123',
         };
 
         request(app)

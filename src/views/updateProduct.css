@@ -1,0 +1,45 @@
+body {
+    font-family: Avenir, sans-serif;
+}
+
+.updateProduct__form {
+    text-align: center;
+    border: #024d1a 4px solid;
+    width: 600px;
+    height: 650px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#deleteBtn {
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #ae0000;
+    color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Avenir, sans-serif;
+}
+
+#submitBtn {
+    width: 120px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: #024d1a;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-family: Avenir, sans-serif;
+    margin: 10px;
+
+}
